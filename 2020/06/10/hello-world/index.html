@@ -394,6 +394,30 @@
 
 
 
+  <div id="giteement-ctn"></div>
+  
+    <link rel="stylesheet" href="/lib/default.css">
+    <script src="/lib/giteement.browser.js"></script>
+  
+  <script>
+  <!-- id: "Hello World" -->
+  var giteement = new Giteement({
+    id: '20200610161913',
+    owner: 'tankk-han',
+    repo: 'yilia-plus-demo',
+    backcall_uri: 'https://tankk-han.gitee.io/yilia-plus-demo',
+    oauth_uri: 'https://cors-anywhere.herokuapp.com/https://gitee.com/oauth/token',
+    oauth: {
+      client_id: 'cf32e49b8d372f716601cd99346459bf740759f25679e0602014534adf9479be',
+      client_secret: 'dceff5a5a98ad13b60ba287eedaf1021db30a62fe3a92b5fd3e76a4b5749c33f'
+    },
+  })
+  giteement.render('giteement-ctn')
+  </script>
+
+
+
+
 
 
 
